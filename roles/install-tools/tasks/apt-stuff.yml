@@ -2,6 +2,10 @@
 - name: "Installing Packages"
   package:
     name:
+      - ffuf
+      - locate
+      - seclists
+      - exploitdb
       - jq
       - pipx
       - ntpdate
